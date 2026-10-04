@@ -27,6 +27,21 @@ The Spam Message Detector is a Natural Language Processing (NLP) and Machine Lea
 2. The application processes the text using CountVectorizer.
 3. The trained Naive Bayes model analyzes the message.
 4. The application displays whether the message is Spam or Not Spam.
+## Input
+
+A text message entered by the user.
+
+**Example:**
+"Congratulations! You won a free prize. Click here to claim now."
+
+## Output
+
+* **Classification:** Spam
+* **Confidence Score:** Model-generated score.
+* **Result:** The message is identified as potentially unwanted or promotional content.
+
+The application displays whether the message is classified as Spam or Not Spam.
+
 
 ## Applications
 
